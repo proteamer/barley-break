@@ -1,0 +1,90 @@
+.game-field {
+    position: relative;
+    height: 220px;
+    width: 220px;
+}
+
+.info-box {
+    width: 220px;
+    margin: 0 0 10px 0;
+}
+
+.action-buttons {
+    margin: 5px 0 0 0;
+}
+
+.game-field p {
+    margin: 13px;
+}
+
+.action-buttons span {
+    cursor: pointer;
+    background: #edc99d;
+    padding: 5px;
+    box-shadow: 1px 1px 5px #777;
+    border-radius: 5px;
+    width: 205px;
+    text-align: center;
+    display: inline-block;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.action-buttons span:active {
+    box-shadow: none;
+}
+
+.game-field div {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #edc99d;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 26px;
+    line-height: 22px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px #777;
+    color: #535353;
+    cursor: pointer;
+
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.game-field .null-field {
+    box-shadow: none !important;
+    background: none !important;
+}
+
+.counter-text {
+    padding: 10px 0 0 0;
+    float: left;
+}
+
+.loader {
+    background: url("loader.gif") no-repeat 0 50% !important;
+    width: 42px;
+    height: 37px;
+    float: right;
+}
+
+.hide {
+    display: none !important;
+}
+
+.clear {
+    clear: both;
+}
+
+.error {
+    margin: 3px 0;
+    color: red;
+    font-size: 14px;
+}
